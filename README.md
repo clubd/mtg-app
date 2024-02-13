@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# On The Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+"On The Stack" is a sophisticated companion app for Magic: The Gathering players, designed to streamline the management of the game's intricate stack system. This tool enhances gameplay by allowing players to add, view, and manage spells and abilities with precision. "On The Stack" is an essential utility for players, ensuring a transparent and strategic gaming experience.
 
-In the project directory, you can run:
+## Problem
 
-### `npm start`
+Magic: The Gathering's stack system is a cornerstone of gameplay, yet it can be one of the most challenging aspects to manage, especially during complex interactions. "On The Stack" addresses these challenges by offering a clear digital representation of the stack, promoting accurate gameplay and reducing disputes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## User Profile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app is intended for Magic: The Gathering players ranging from beginners to advanced competitors. Beginners can use the app to learn stack mechanics, while advanced players can handle intricate stack interactions with confidence.
 
-### `npm test`
+## Special Considerations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Accessibility features are a priority, including text-to-speech for visually impaired players and high-contrast modes for those with color vision deficiency. The app's intuitive design ensures easy adoption by players of all experience levels.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### MVP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Card Search:
+A comprehensive card database allows for easy addition to the stack.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Stack Visualization:
+Interactive and real-time visualization of the stack as it is built and resolved.
 
-### `npm run eject`
+#### Spell Details:
+Access detailed information and rulings for each card with a simple tap.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Stack Resolution:
+Execute the stack resolution process in a step-by-step manner for clarity and fairness.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Next Up
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Spell History:
+Review past stack interactions to reflect and improve future gameplay.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Rule Linking:
+Quick access to official MTG rules relevant to cards and interactions on the stack.
 
-## Learn More
+### Help Section:
+Guidance for players unfamiliar with stack mechanics or the app's features.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Implementation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
 
-### Code Splitting
+#### React Native
+Enables cross-platform mobile app development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Node.js
+Serves as the backend to handle game logic and user interactions.
 
-### Analyzing the Bundle Size
+#### MongoDB
+A database to store user profiles, game history, and stack configurations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### APIs
 
-### Making a Progressive Web App
+#### Scryfall API
+Provides card details and images.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Camera API
+Enables card recognition through the device's camera.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
