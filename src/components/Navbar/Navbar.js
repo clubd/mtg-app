@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Navbar.scss';
 
 function Navbar() {
     const [burgerClass, setBurgerClass] = useState('burger_bar unclicked');
@@ -19,10 +20,10 @@ function Navbar() {
     return (
         <div>
             <nav>
-                <div className="burger-menu">
-                    <div className={burgerClass} onClick={updateMenu}></div>
-                    <div className={burgerClass} onClick={updateMenu}></div>
-                    <div className={burgerClass} onClick={updateMenu}></div>
+                <div className="burger-menu" onClick={updateMenu}>
+                    <div className={burgerClass} ></div>
+                    <div className={burgerClass} ></div>
+                    <div className={burgerClass} ></div>
                 </div>
             </nav>
             <div className={menuClass}></div>
