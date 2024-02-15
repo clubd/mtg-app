@@ -1,0 +1,36 @@
+
+.stackBox {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1.25rem 0;
+
+    &__list{
+        list-style-type: none;
+        padding: 0;
+
+        &--item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid #eee;
+            }
+        }
+    }
+
+    &__card-name {
+        margin: 0 .625rem;
+    }
+
+    &__mana-cost {
+        margin: 0 .625rem;
+    }
+
+    &__empty-stack {
+        text-align: center;
+        color: #666;
+    }
+}
